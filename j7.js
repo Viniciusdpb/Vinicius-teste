@@ -1,6 +1,5 @@
-let num = [1,3,5,7,9,11]
+const numeros = [44, 1, 25, 10, 7];
 
-for (let a = 0; i < numeros.lenght; i++) {
-   let num2 = num2+numeros[i]
-    console.log("a soma é" + num2)
-}
+const soma = numeros.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0); // reduce() percorre todos os elementos do array.
+
+console.log(soma); // Saída
